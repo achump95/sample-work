@@ -1,23 +1,15 @@
-$primary: #000;
 
-@import "../assets/css/bootstrap.min.css";
+$primary: #000000;
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.font-heading {
-  font-family: Poppins;
+@import "../bootstrap/bootstrap.scss";
+
+body{
+  font-family: 'Poppins', sans-serif;
 }
+
 
 p {
   line-height: 1.8;
 }
 
-@font-face {
-    font-family: Poppins;
-    font-display: swap;
-    src: url("../assets/fonts/Poppins-ExtraBold.ttf");
-  }
+
